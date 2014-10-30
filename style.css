@@ -1,0 +1,65 @@
+body {
+    font-size: 110%;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    font-family: PT Sans;
+}
+    
+h1,h2 {
+    color: white;
+    font-weight: normal;
+    text-shadow: 1px 1px 3px #333
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.bio {
+    width: 540px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+}
+    
+.images {
+    word-spacing: 20px;
+    margin-left: -50px;
+    display: inline;
+}
+    
+p {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .2s ease-in-out;
+   -moz-transition: opacity .2s ease-in-out;
+   -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade:hover {
+      opacity: 0.6;
+}
+
+a:link {color:#999999;
+        text-decoration: none;}
+a:visited {color:#999999;
+        text-decoration: none;}
+a:active {color:#999999;
+        text-decoration: none;}
+        
+        
+.pano {
+        background: url("http://www.wallpaperfo.com/thumbnails/detail/20120427/black%20and%20white%20landscapes%20nature%20trees%20forest%201920x1200%20wallpaper_www.wallpaperfo.com_94.jpg");
+        background-size:cover;
+        padding: 86px;
+    }
+        
